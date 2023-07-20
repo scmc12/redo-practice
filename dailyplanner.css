@@ -1,0 +1,67 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1,
+h2,
+form {
+  text-align: center;
+}
+#submitBtn {
+  display: block;
+  margin: 20px auto;
+  color: white;
+  background: darkgreen;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+#submitBtn:hover {
+  background: green;
+}
+#clearBtn {
+  display: block;
+  margin: 20px auto;
+  color: white;
+  background: darkred;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  width: 100px;
+}
+#clearBtn:hover {
+  background: red;
+}
+ul {
+  width: 100px;
+  height: 200px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  border: none;
+}
+li {
+  text-align: center;
+  width: 94px;
+  height: 49px;
+  border: none;
+}
+h3 {
+  font-size: 100px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

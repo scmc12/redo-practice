@@ -1,0 +1,52 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  height: 30px;
+  width: 200px;
+}
+#clickToAdd {
+  color: white;
+  background-color: darkgreen;
+  border: none;
+  border-radius: 20px;
+}
+#clickToMinus {
+  color: white;
+  background-color: darkred;
+  border: none;
+  border-radius: 20px;
+}
+#clear {
+  color: white;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 20px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
